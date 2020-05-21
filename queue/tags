@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	queue_array/makefile	/^CC:=gcc$/;"	m
+CC	queue_link_list/makefile	/^CC:=gcc$/;"	m
+MAXSIZE	queue_array/queue.h	5;"	d
+MAXSIZE	queue_link_list/queue.c	4;"	d	file:
+QUEUE_ARRAY_J	queue_array/queue.h	3;"	d
+QUEUE_J	queue_link_list/queue.h	3;"	d
+STACK_LINKED_LIST	queue_array/queue.c	3;"	d	file:
+STACK_LINKED_LIST	queue_link_list/queue.c	3;"	d	file:
+count	queue_link_list/queue.h	/^	int count;$/;"	m	struct:stack
+data	queue_array/queue.h	/^	int data[MAXSIZE];$/;"	m	struct:queue
+destory_stack	queue_array/queue.c	/^int destory_stack(stack *ps)$/;"	f
+destory_stack	queue_link_list/queue.c	/^int destory_stack(stack *ps)$/;"	f
+exe	queue_array/makefile	/^exe:=test$/;"	m
+exe	queue_link_list/makefile	/^exe:=test$/;"	m
+front	queue_array/queue.h	/^	int front;$/;"	m	struct:queue
+init_queue	queue_array/queue.c	/^int init_queue(queue *pq)$/;"	f
+init_stack	queue_link_list/queue.c	/^int init_stack(stack *ps)$/;"	f
+main	queue_array/main.c	/^int main (void)$/;"	f
+main	queue_link_list/main.c	/^int main (void)$/;"	f
+node	queue_link_list/queue.h	/^typedef struct node {$/;"	s
+node	queue_link_list/queue.h	/^} node;	$/;"	t	typeref:struct:node
+obj	queue_array/makefile	/^obj:=main.o stack.o$/;"	m
+obj	queue_link_list/makefile	/^obj:=main.o stack.o$/;"	m
+pNext	queue_link_list/queue.h	/^	struct node *pNext;$/;"	m	struct:node	typeref:struct:node::node
+pop_stack	queue_array/queue.c	/^int pop_stack(stack *ps, int *pvalue)$/;"	f
+pop_stack	queue_link_list/queue.c	/^int pop_stack(stack *ps, int *pvalue)$/;"	f
+push_stack	queue_link_list/queue.c	/^int push_stack(stack *ps, int value)$/;"	f
+queue	queue_array/queue.h	/^typedef struct queue {$/;"	s
+queue	queue_array/queue.h	/^}queue;$/;"	t	typeref:struct:queue
+rear	queue_array/queue.h	/^	int rear;$/;"	m	struct:queue
+show_stack	queue_array/queue.c	/^int show_stack(stack *ps)$/;"	f
+show_stack	queue_link_list/queue.c	/^int show_stack(stack *ps)$/;"	f
+stack	queue_link_list/queue.h	/^typedef struct stack {$/;"	s
+stack	queue_link_list/queue.h	/^}stack;$/;"	t	typeref:struct:stack
+top	queue_link_list/queue.h	/^	node *top;$/;"	m	struct:stack
+value	queue_link_list/queue.h	/^	int value;$/;"	m	struct:node
